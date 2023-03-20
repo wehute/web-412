@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+</head>
+<body>
+    <hr>
+    <h1 style="margin-left: 500px">Анкета посетителя ресторана</h1>
+    <form style="line-height: 180%; margin-left: 500px">
+        <div>
+            <label>Контактная информация</label><br>
+            <label for="name">Имя</label><br>
+            <input id="name" type="text" placeholder="Имя" name="name" required style="width: 420px"><br>
+        </div>
+        <div>  
+            <label for="phone">Телефон</label><br>
+            <input id="phone" type="text" placeholder="Телефон" name="phone" required style="width: 420px"><br>
+        </div>  
+        <div>
+            <label for="email">Email</label><br>
+            <input id="email" type="email" placeholder="Email" name="email" required style="width: 420px"><br>
+        </div>  
+        <div>
+            <label for="date">Дата посещения</label><br>
+            <input id="date" type="date" placeholder="дд.мм.гггг" name="date" required style="width: 423px"><br>
+        </div>  
+        <div>
+            <label>Персональная информация</label><br>
+            <label for="age">Возраст</label><br>
+            <input id="age" type="number" min="1" max="100" placeholder="Возраст" name="age" required style="width: 420px"><br>
+        </div> 
+        <div>
+            <label for="kitchen">Любимая кухня</label><br>
+            <select id="kitchen" name="kitchen" required style="width: 430px; height: 22px">
+            <option>Русская</option>
+            <option>Армянская</option>
+            <option>Грузинская</option>
+            <option>Итальянская</option>
+            <option>Японская</option>
+            </select><br>
+        </div> 
+        <div> 
+            <label for="dish">Какие блюда вы бы хотели увидеть в меню?</label><br>
+            <textarea required id="dish" name="text" style="width: 425px; height: 100px"></textarea><br>
+        </div>  
+        <div>
+            <label>Почему вы выбрали наше заведение?</label><br>
+            <img src="./images/Emojione_BW_1F4D2.svg.png" alt="журнал" width="20" height="20"> 
+            <label>
+                <input type="checkbox" name="reasons" value="1">
+                Недалеко от работы
+            </label><br>
+            <img src="./images/Emojione_BW_1F4D2.svg.png" alt="журнал" width="20" height="20"> 
+            <label>
+                <input type="checkbox" name="reasons" value="2">
+                Реклама
+            </label><br>
+            <img src="./images/Emojione_BW_1F4D2.svg.png" alt="журнал" width="20" height="20">
+            <label>
+                <input type="checkbox" name="reasons" value="3">
+                Посоветовали
+            </label><br>
+        </div>
+        <div>
+            <label>Вы будете рекомендовать наше заведение?</label><br>
+            <img src="./images/Emojione_BW_1F4D2.svg.png" alt="журнал" width="20" height="20"> 
+            <label>
+                <input type="checkbox" name="answer" value="1">
+                Да
+            </label><br>
+            <img src="./images/Emojione_BW_1F4D2.svg.png" alt="журнал" width="20" height="20"> 
+            <label>
+                <input type="checkbox" name="answer" value="2">
+                Нет
+            </label><br>
+        </div>
+        <div>
+            <input type="reset" value="Сброс">
+            <input type="submit" value="Отправить форму">
+        </div>
+
+        
+
+
+    </form>
+    <hr>
+    <a href="homework.html" style="margin-left: 590px">Вернуться к списку домашней работы</a>
+</body>
+</html>
