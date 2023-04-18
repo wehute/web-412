@@ -1,18 +1,79 @@
+
 .header {
     display: flex;
-
+    background-color: #4a2b53;
 }
 
 .header-title {
+    display: flex;
     width: 20%;
+    color: azure;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    position: relative;
+    left:8%;
+
+}
+
+.img {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 13%;
+    top:8%;
+    width: 19.4%;
+    height: 69%;
 }
 
 .header-menu {
     width: 60%;
+    font-size: 150%;
+    color: azure ;
+}
 
+.ul {
+    display: flex;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.alpha {
+    background-color: rgb(169, 255, 88);
+    color: #4a2b53;
+}
+
+li {
+    display: flex;
+    padding: 2%;
+    padding-bottom: 4.4%;
+    border-radius: 0;
+   
+}
+
+li:hover {
+    background-color: #5f376a;
+    color:rgb(169, 255, 88)
 }
 
 .header-search {
     width: 20%;
+}
 
+input.input {
+    width: 80%;
+    height: 25px;
+    margin-top: 6%;
+    border-radius: 5px;
+    border: 0; 
+    background-color: #5f376a;
+    color:azure;
+    margin-bottom: 0;
+}
+
+input.input::placeholder {
+    color:azure;
 }
