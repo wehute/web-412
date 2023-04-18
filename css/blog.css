@@ -1,4 +1,3 @@
-
 .header {
     display: flex;
     background-color: #4a2b53;
@@ -36,6 +35,7 @@
 }
 
 .ul {
+    list-style-type: none;
     display: flex;
     margin-top:0;
     margin-bottom: 0;
@@ -44,17 +44,22 @@
 .alpha {
     background-color: rgb(169, 255, 88);
     color: #4a2b53;
-}
-
-li {
-    display: flex;
     padding: 2%;
     padding-bottom: 4.4%;
     border-radius: 0;
    
 }
 
-li:hover {
+.omega {
+    display: flex;
+    padding: 2%;
+    padding-bottom: 4.4%;
+    border-radius: 0;
+    cursor: pointer;
+   
+}
+
+.omega:hover {
     background-color: #5f376a;
     color:rgb(169, 255, 88)
 }
@@ -64,6 +69,8 @@ li:hover {
 }
 
 input.input {
+    position: relative;
+    left:11%;
     width: 80%;
     height: 25px;
     margin-top: 6%;
@@ -76,4 +83,39 @@ input.input {
 
 input.input::placeholder {
     color:azure;
+}
+
+.body {
+    display: flex;
+    height: 800px;
+}
+.body-left {
+    width: 22.7%;
+    background-color: #5f376a;
+}
+
+.body-center {
+    width: 60%;
+    background-color:azure;
+}
+
+.body-right {
+    width: 20%;
+    background-color: #5f376a;
+}
+
+.ul-left {
+    list-style-type: none;
+    background-color: #825b8d;
+    margin:0;
+    padding: 0;
+}
+
+.ul-left-li {
+    color:azure;
+    padding: 4%;
+}
+
+.ul-left-li:hover {
+    background-color: #5f376a;
 }
