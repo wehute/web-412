@@ -90,7 +90,7 @@ input.input::placeholder {
     height: 800px;
 }
 .body-left {
-    width: 22.7%;
+    width: 20%;
     background-color: #5f376a;
 }
 
@@ -106,7 +106,7 @@ input.input::placeholder {
 
 .ul-left {
     list-style-type: none;
-    background-color: #825b8d;
+    background-color: #5f376a;
     margin:0;
     padding: 0;
 }
@@ -117,5 +117,49 @@ input.input::placeholder {
 }
 
 .ul-left-li:hover {
+    background-color: #4a2b53;
+}
+
+.b-l {
+    border: solid 2px azure;
+    padding: 2%;
+    margin: 3%;
+    height: 60%;
+}
+
+.body-center-main {
+    padding: 0.5%;
+    margin: 1%;
+    height: 100%;
     background-color: #5f376a;
+}
+
+.b-c-m-0 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.b-c-m-1 {
+    border: solid 2px azure;
+    padding: 1%;
+    margin: 1.5%;
+    height: 50px;
+    width: 55%;
+}
+
+.b-c-m-2 {
+    border: solid 2px azure;
+    padding: 1%;
+    margin: 1.5%;
+    height: 20px;
+    width: 35%;
+}
+
+.b-c-m-3 {
+    border: solid 2px azure;
+    padding: 1%;
+    margin: 1.5%;
+    height: 70%;
+    width: 94.5%;
 }
